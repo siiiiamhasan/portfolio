@@ -1,64 +1,96 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+  <div class="container">
     <section class="min-h-screen bg-gray-900 text-white flex items-center justify-center p-4 sm:p-8">
-  <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center max-w-6xl">
-    
-    <div class="space-y-6 md:space-y-8">
-      
-      <div class="absolute top-4 left-4 sm:top-8 sm:left-8 md:static text-sm font-semibold tracking-widest uppercase">
-        ROBERT GARCIA
+      <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center max-w-6xl">
+        <div class="space-y-6 md:space-y-8">
+          <div
+            class="absolute top-4 left-4 sm:top-8 sm:left-8 md:static text-sm font-semibold tracking-widest uppercase">
+            siam hasan
+          </div>
+          <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight pt-10 md:pt-0">
+            HI, I AM<br>
+            <span class="text-lime-400">SIAM HASAN.</span>
+          </h1>
+          <p class="text-lg text-gray-400 max-w-md">
+            A Sydney based front-end developer passionate about building accessible and user-friendly websites.
+          </p>
+          <div class="flex items-center space-x-4">
+            <a href="#"
+              class="flex items-center bg-lime-400 text-black py-3 px-6 rounded-full font-semibold hover:bg-lime-300 transition duration-300">
+              CONTACT ME
+              <span class="w-2 h-2 bg-black rounded-full ml-2"></span>
+            </a>
+            <a href="#"
+              class="w-10 h-10 border border-gray-600 rounded-full flex items-center justify-center text-gray-400 hover:border-lime-400 hover:text-lime-400 transition duration-300"
+              aria-label="LinkedIn">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"></svg>
+            </a>
+            <a href="#"
+              class="w-10 h-10 border border-gray-600 rounded-full flex items-center justify-center text-gray-400 hover:border-lime-400 hover:text-lime-400 transition duration-300"
+              aria-label="Github">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"></svg>
+            </a>
+          </div>
+        </div>
+        <div class="relative mx-[50px] flex justify-center md:justify-end order-first md:order-none">
+          <div
+            class="w-full max-w-sm md:max-w-none md:w-full aspect-square bg-gray-600 rounded-2xl overflow-hidden shadow-2xl">
+            <img src="image/benner image.jpg" alt="Robert Garcia portrait"
+              class="object-cover overflow-hidden w-full h-full" />
+          </div>
+        </div>
       </div>
-      
-      <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight pt-10 md:pt-0">
-        HI, I AM<br>
-        <span class="text-lime-400">SIAM HASAN.</span>
-      </h1>
-      
-      <p class="text-lg text-gray-400 max-w-md">
-        A Sydney based front-end developer passionate about building accessible and user-friendly websites.
-      </p>
-      
-      <div class="flex items-center space-x-4">
-        <a href="#" class="flex items-center bg-lime-400 text-black py-3 px-6 rounded-full font-semibold hover:bg-lime-300 transition duration-300">
-          CONTACT ME
-          <span class="w-2 h-2 bg-black rounded-full ml-2"></span>
-        </a>
-        
-        <a href="#" class="w-10 h-10 border border-gray-600 rounded-full flex items-center justify-center text-gray-400 hover:border-lime-400 hover:text-lime-400 transition duration-300" aria-label="LinkedIn">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"></svg>
-        </a>
-        <a href="#" class="w-10 h-10 border border-gray-600 rounded-full flex items-center justify-center text-gray-400 hover:border-lime-400 hover:text-lime-400 transition duration-300" aria-label="Github">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"></svg>
-        </a>
+      <nav class="absolute top-4 right-4 sm:top-8 sm:right-8 hidden md:block">
+        <ul class="flex space-x-6 text-sm font-semibold tracking-widest uppercase">
+          <li><a href="#" class="hover:text-lime-400 transition duration-300">Work</a></li>
+          <li><a href="#" class="hover:text-lime-400 transition duration-300">About</a></li>
+          <li><a href="#" class="hover:text-lime-400 transition duration-300">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+    <div class="project">
+      <div class="project">
+        <div class="project1 flex gap-8 ">
+          <div>
+            <img class="w-[250px]" src="image/benner image.jpg" alt="">
+          </div>
+          <div>
+            <h2 class="font-semibold text-2xl">supershop</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur suscipit sequi autem placeat vero
+              temporibus! Pariatur animi voluptatum unde accusantium.</p>
+          </div>
+        </div>
+        <div class="project1 flex gap-8 ">
+          <div>
+            <h2 class="font-semibold text-2xl">supershop</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur suscipit sequi autem placeat vero
+              temporibus! Pariatur animi voluptatum unde accusantium.</p>
+          </div>
+          <div>
+            <img class="w-[250px]" src="image/benner image.jpg" alt="">
+          </div>
+        </div>
+        <div class="project1 flex gap-8 ">
+          <div>
+            <img class="w-[250px]" src="image/benner image.jpg" alt="">
+          </div>
+          <div>
+            <h2 class="font-semibold text-2xl">supershop</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur suscipit sequi autem placeat vero
+              temporibus! Pariatur animi voluptatum unde accusantium.</p>
+          </div>
+        </div>
       </div>
     </div>
-    
-    <div class="relative mx-[50px] flex justify-center md:justify-end order-first md:order-none">
-      <div class="w-full max-w-sm md:max-w-none md:w-full aspect-square bg-gray-600 rounded-2xl overflow-hidden shadow-2xl">
-        <img 
-          src="image/benner image.jpg" 
-          alt="Robert Garcia portrait" 
-          class="object-cover overflow-hidden w-full h-full"
-        />
-      </div>
-    </div>
+</body>
 
-  </div>
-  
-  <nav class="absolute top-4 right-4 sm:top-8 sm:right-8 hidden md:block">
-    <ul class="flex space-x-6 text-sm font-semibold tracking-widest uppercase">
-      <li><a href="#" class="hover:text-lime-400 transition duration-300">Work</a></li>
-      <li><a href="#" class="hover:text-lime-400 transition duration-300">About</a></li>
-      <li><a href="#" class="hover:text-lime-400 transition duration-300">Contact</a></li>
-    </ul>
-  </nav>
-
-</section>
-  </body>
 </html>
